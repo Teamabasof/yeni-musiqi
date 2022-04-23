@@ -153,7 +153,7 @@ async def oynat(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Grup 🎧",
-                        url="https://t.me/Cat_House_Gurups")
+                        url="https://t.me/internetschat")
                    
                 ]
             ]
