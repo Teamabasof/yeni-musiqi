@@ -7,25 +7,25 @@ from helpers.filters import command, other_filters2
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(client: Client, message: Message):
-    await message.reply_text(f"**Salam {message.from_user.mention} 🎵\n Mən {bot}!\nTelegram qruplarında səsli söhbətdə musiqi səsləndirmək üçün yaradılmışam.\n✅ Ətraflı məlumat üçün /bilgi yazın\n\nPowered by @BLACK_MMC **",
+    await message.reply_text(f"**Salam {message.from_user.mention} 🎵\n Mən {bot}!\nTelegram qruplarında səsli söhbətdə musiqi səsləndirmək üçün yaradılmışam.\n✅ Ətraflı məlumat üçün /bilgi yazın\n\nPowered by @TTteamabasof **",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Qurupa əlavə et", url="https://t.me/BSMussic_bot?startgroup=true"
+                        "➕ Qurupa əlavə et", url="https://t.me/lordmusiqi_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💭 Söhbət Grubu", url="https://t.me/Cat_House_Gurups"
+                        "💭 Söhbət Grubu", url="https://t.me/internetschat"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨🏻‍💻 Sahibi", url = "https://t.me/A_l_i_y_e_v_d_i"
+                        "👨🏻‍💻 Sahibi", url = "https://t.me/TTteamabasof"
                     ),
                     InlineKeyboardButton(
-                        "👨🏻‍🎤 Asistan" , url = "https://t.me/BSMusicbotu"
+                        "👨🏻‍🎤 Asistan" , url = "https://t.me/lordasisstan"
                     )
                 ],
                 [ 
@@ -33,7 +33,7 @@ async def start(client: Client, message: Message):
                         "🌀 Əmirlər" , url = "https://t.me/BLACK_MMC/14"
                     ),
                     InlineKeyboardButton(
-                        "⚕️ Support", url="https://t.me/BLACK_MMC"
+                        "⚕️ Support", url="https://t.me/teamtagsup"
                     )
                 ]
             ]
@@ -47,7 +47,7 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "👨🏻‍💻 Sahibi", url="https://t.me/A_l_i_y_e_v_d_i")
+                         "👨🏻‍💻 Sahibi", url="https://t.me/TTteamabasof")
                  ]
              ]
          )
